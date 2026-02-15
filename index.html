@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Rosetta | Panadería & Confitería</title>
+    <meta
+      name="description"
+      content="La Rosetta: sándwichitos, facturas, viandas y catering fresco para todos los días."
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#inicio">La Rosetta</a>
+        <nav class="nav" aria-label="Navegación principal">
+          <ul class="nav-list">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#catering">Catering & Viandas</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="menu.html">Menú (Imprimible)</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+        <a id="waHeaderBtn" class="btn btn-primary" href="#">Pedir por WhatsApp</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="container hero-inner">
+          <h1>La Rosetta: panadería & confitería para todos los días</h1>
+          <p>
+            Sándwichitos, facturas, viandas y catering. Hecho fresco, sin vueltas.
+          </p>
+          <div class="hero-actions">
+            <a href="#productos" class="btn btn-primary">Ver productos</a>
+            <a id="waHeroBtn" href="#" class="btn btn-secondary">Pedir por WhatsApp</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="destacados-title">
+        <div class="container">
+          <h2 id="destacados-title" class="section-title">Más pedidos</h2>
+          <p class="section-intro">Una selección de favoritos de nuestros clientes.</p>
+          <div id="featuredGrid" class="grid highlight-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="productos" aria-labelledby="productos-title">
+        <div class="container">
+          <h2 id="productos-title" class="section-title">Productos</h2>
+          <p class="section-intro">
+            Catálogo editable con precios de muestra (demo). Filtrá por categoría o buscá por nombre.
+          </p>
+
+          <div class="catalog-controls">
+            <input
+              type="search"
+              id="searchInput"
+              class="input"
+              placeholder="Buscar producto..."
+              aria-label="Buscar producto por nombre"
+            />
+            <button id="refreshPricesBtn" class="btn btn-tertiary" type="button">
+              Actualizar precios (demo)
+            </button>
+            <a href="menu.html" class="btn btn-secondary">Ver menú imprimible</a>
+          </div>
+
+          <div id="categoryFilters" class="filter-chips" aria-label="Filtros por categoría"></div>
+          <p class="notice">Los precios son demostrativos y se randomizan dentro de cada rango.</p>
+
+          <div id="catalogGrid" class="grid catalog-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="catering" aria-labelledby="catering-title">
+        <div class="container split">
+          <div>
+            <h2 id="catering-title" class="section-title">Catering & Viandas</h2>
+            <p class="section-intro">
+              Armamos opciones para reuniones, eventos y oficinas. Pedidos con anticipación.
+            </p>
+            <div class="info-box">
+              <h3>Catering</h3>
+              <p>Coffee break, mesas saladas y dulces para empresas, cumpleaños y encuentros.</p>
+            </div>
+            <div class="info-box">
+              <h3>Viandas</h3>
+              <p>Opciones clásicas, veggie y proteicas para resolver el almuerzo diario.</p>
+            </div>
+          </div>
+
+          <aside class="info-box" aria-label="Cómo pedir">
+            <h3>Cómo pedir</h3>
+            <ol class="steps">
+              <li>Elegí productos del catálogo o menú imprimible.</li>
+              <li>Enviá tu pedido por WhatsApp con cantidad y fecha.</li>
+              <li>Coordinamos entrega o retiro en sucursal.</li>
+            </ol>
+            <p><a id="waStepsBtn" class="btn btn-secondary" href="#">Pedir por WhatsApp</a></p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="galeria" aria-labelledby="galeria-title">
+        <div class="container">
+          <h2 id="galeria-title" class="section-title">Galería</h2>
+          <div class="grid gallery-grid">
+            <article class="card gallery-item">
+              <figure>
+                <img class="card-image" src="https://source.unsplash.com/featured/?catering,food" alt="Mesa de catering con bocados salados y dulces" />
+                <figcaption>Catering</figcaption>
+              </figure>
+            </article>
+            <article class="card gallery-item">
+              <figure>
+                <img class="card-image" src="https://source.unsplash.com/featured/?pastry,argentina" alt="Facturas surtidas recién horneadas" />
+                <figcaption>Facturas</figcaption>
+              </figure>
+            </article>
+            <article class="card gallery-item">
+              <figure>
+                <img class="card-image" src="https://source.unsplash.com/featured/?sandwich" alt="Bandeja de sándwichitos de miga" />
+                <figcaption>Sándwichitos</figcaption>
+              </figure>
+            </article>
+            <article class="card gallery-item">
+              <figure>
+                <img class="card-image" src="https://source.unsplash.com/featured/?lunchbox,healthy" alt="Viandas listas para llevar" />
+                <figcaption>Viandas</figcaption>
+              </figure>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contacto" aria-labelledby="contacto-title">
+        <div class="container contact-grid">
+          <article class="contact-card">
+            <h2 id="contacto-title" class="section-title">Contacto</h2>
+            <p><strong>Dirección:</strong> Suipacha 730, CABA</p>
+            <p><strong>Horarios:</strong> <span id="horariosText">Lun a Sáb 07:30 a 20:00 · Dom 08:00 a 14:00</span></p>
+            <p><strong>Teléfono:</strong> <span id="phoneText">(011) 4000-0000</span></p>
+            <p><a id="waContactBtn" class="btn btn-secondary" href="#">WhatsApp</a></p>
+          </article>
+          <article class="map-card">
+            <h3>Ubicación</h3>
+            <div id="mapContainer" class="map-placeholder"></div>
+            <p><a id="mapsBtn" class="btn btn-tertiary" href="#" target="_blank" rel="noreferrer">Cómo llegar</a></p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <div>Seguinos: Instagram · Facebook · TikTok</div>
+        <div class="footer-note">Precios de muestra (demo). Sujetos a cambio.</div>
+      </div>
+    </footer>
+
+    <script src="js/app.js" defer></script>
+  </body>
+</html>
