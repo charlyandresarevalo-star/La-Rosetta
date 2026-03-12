@@ -116,6 +116,7 @@ function initCatalogPage(products) {
     featuredGrid.innerHTML = featuredProducts.map(productCardTemplate).join("");
     applyImageFallbacks(featuredGrid);
   }
+  if (featuredGrid) featuredGrid.innerHTML = featuredProducts.map(productCardTemplate).join("");
 
   const renderFilters = () => {
     const allFilters = ["Todas", ...categories];
