@@ -4,6 +4,13 @@
     "name": "Sándwichitos de miga (Jamón y queso)",
     "category": "Sándwichitos",
     "description": "Clásicos triples bien frescos, ideal para reuniones y oficina.",
+    "imageUrl": "https://images.unsplash.com/photo-1553909489-cd47e0907980?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 4200,
+    "priceMax": 6400,
+    "tags": [
+      "Clásico",
+      "Por docena"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?sandwich,ham,cheese&sig=1",
     "priceMin": 4200,
     "priceMax": 6400,
@@ -15,6 +22,13 @@
     "name": "Sándwichitos de miga (Crudo y queso)",
     "category": "Sándwichitos",
     "description": "Miga suave con jamón crudo y queso en corte delicado.",
+    "imageUrl": "https://images.unsplash.com/photo-1485451456034-3f9391c6f769?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 5200,
+    "priceMax": 7600,
+    "tags": [
+      "Premium",
+      "Por docena"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?sandwich,prosciutto&sig=2",
     "priceMin": 5200,
     "priceMax": 7600,
@@ -26,6 +40,13 @@
     "name": "Sándwichitos de miga (Atún)",
     "category": "Sándwichitos",
     "description": "Relleno de atún suave y toque de limón, súper rendidor.",
+    "imageUrl": "https://images.unsplash.com/photo-1528736235302-52922df5c122?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 4800,
+    "priceMax": 7100,
+    "tags": [
+      "Mar",
+      "Por docena"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?tuna,sandwich&sig=3",
     "priceMin": 4800,
     "priceMax": 7100,
@@ -37,6 +58,13 @@
     "name": "Fosforitos",
     "category": "Sándwichitos",
     "description": "Mini hojaldres rellenos, dorados y crocantes para picar.",
+    "imageUrl": "https://images.unsplash.com/photo-1509722747041-616f39b57569?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 3500,
+    "priceMax": 5600,
+    "tags": [
+      "Hojaldre",
+      "Copetín"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?puff,pastry,savory&sig=4",
     "priceMin": 3500,
     "priceMax": 5600,
@@ -48,6 +76,13 @@
     "name": "Triples surtidos",
     "category": "Sándwichitos",
     "description": "Variedad de sabores en una bandeja práctica para compartir.",
+    "imageUrl": "https://images.unsplash.com/photo-1553909489-cd47e0907980?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 4900,
+    "priceMax": 7300,
+    "tags": [
+      "Surtido",
+      "Reuniones"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?sandwich,party,platter&sig=5",
     "priceMin": 4900,
     "priceMax": 7300,
@@ -59,6 +94,13 @@
     "name": "Pebetes",
     "category": "Sándwichitos",
     "description": "Pebetes tiernos con jamón y queso, estilo kiosco gourmet.",
+    "imageUrl": "https://images.unsplash.com/photo-1485451456034-3f9391c6f769?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 3900,
+    "priceMax": 6000,
+    "tags": [
+      "Mini",
+      "Clásico"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?mini,sandwich&sig=6",
     "priceMin": 3900,
     "priceMax": 6000,
@@ -70,6 +112,13 @@
     "name": "Bocaditos salados",
     "category": "Sándwichitos",
     "description": "Selección de bocaditos para eventos y mesas de recepción.",
+    "imageUrl": "https://images.unsplash.com/photo-1528736235302-52922df5c122?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 4500,
+    "priceMax": 6800,
+    "tags": [
+      "Evento",
+      "Bocados"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?savory,bites,catering&sig=7",
     "priceMin": 4500,
     "priceMax": 6800,
@@ -81,6 +130,13 @@
     "name": "Medialunas de manteca",
     "category": "Facturas",
     "description": "Hojaldradas, brillantes y con perfume a manteca real.",
+    "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 3100,
+    "priceMax": 5000,
+    "tags": [
+      "Desayuno",
+      "Docena"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?croissant,breakfast&sig=8",
     "priceMin": 3100,
     "priceMax": 5000,
@@ -92,6 +148,13 @@
     "name": "Medialunas de grasa",
     "category": "Facturas",
     "description": "Secas, livianas y perfectas para el mate de la tarde.",
+    "imageUrl": "https://images.unsplash.com/photo-1555507036-ab794f4ade0a?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 2900,
+    "priceMax": 4600,
+    "tags": [
+      "Tradicional",
+      "Mate"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?pastry,bakery&sig=9",
     "priceMin": 2900,
     "priceMax": 4600,
@@ -103,6 +166,13 @@
     "name": "Vigilantes",
     "category": "Facturas",
     "description": "Masa suave con membrillo o batata, un clásico porteño.",
+    "imageUrl": "https://images.unsplash.com/photo-1515443961218-a51367888e4b?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 2800,
+    "priceMax": 4500,
+    "tags": [
+      "Membrillo",
+      "Batata"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?sweet,pastry&sig=10",
     "priceMin": 2800,
     "priceMax": 4500,
@@ -114,6 +184,13 @@
     "name": "Facturas surtidas",
     "category": "Facturas",
     "description": "Mix completo para oficina, familia o merienda con amigos.",
+    "imageUrl": "https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 3400,
+    "priceMax": 5600,
+    "tags": [
+      "Surtido",
+      "Docena"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?assorted,pastries&sig=11",
     "priceMin": 3400,
     "priceMax": 5600,
@@ -125,6 +202,13 @@
     "name": "Cañoncitos con dulce de leche",
     "category": "Facturas",
     "description": "Crocantes por fuera, bien cargados de dulce de leche.",
+    "imageUrl": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 3600,
+    "priceMax": 5900,
+    "tags": [
+      "Dulce de leche",
+      "Especial"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?dulce,de,leche,pastry&sig=12",
     "priceMin": 3600,
     "priceMax": 5900,
@@ -136,6 +220,13 @@
     "name": "Berlinesas",
     "category": "Facturas",
     "description": "Esponjosas, rellenas y espolvoreadas con azúcar impalpable.",
+    "imageUrl": "https://images.unsplash.com/photo-1555507036-ab794f4ade0a?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 3300,
+    "priceMax": 5400,
+    "tags": [
+      "Rellenas",
+      "Merienda"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?doughnut,berliner&sig=13",
     "priceMin": 3300,
     "priceMax": 5400,
@@ -147,6 +238,13 @@
     "name": "Tortitas negras",
     "category": "Facturas",
     "description": "Masa tierna con cobertura oscura caramelizada.",
+    "imageUrl": "https://images.unsplash.com/photo-1515443961218-a51367888e4b?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 3000,
+    "priceMax": 4800,
+    "tags": [
+      "Clásico",
+      "Panadería"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?pastry,sugar,bun&sig=14",
     "priceMin": 3000,
     "priceMax": 4800,
@@ -158,6 +256,13 @@
     "name": "Coffee break clásico",
     "category": "Catering",
     "description": "Infusiones, medialunas y mini pastelería para reuniones.",
+    "imageUrl": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 18000,
+    "priceMax": 26000,
+    "tags": [
+      "Empresas",
+      "Reuniones"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?coffee,break,catering&sig=15",
     "priceMin": 18000,
     "priceMax": 26000,
@@ -169,6 +274,13 @@
     "name": "Coffee break premium",
     "category": "Catering",
     "description": "Versión completa con opciones dulces y saladas premium.",
+    "imageUrl": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 26000,
+    "priceMax": 38000,
+    "tags": [
+      "Premium",
+      "Corporativo"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?premium,catering,food&sig=16",
     "priceMin": 26000,
     "priceMax": 38000,
@@ -180,6 +292,13 @@
     "name": "Mesa salada",
     "category": "Catering",
     "description": "Sándwichitos, tartas y bocados para eventos sociales.",
+    "imageUrl": "https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 24000,
+    "priceMax": 36000,
+    "tags": [
+      "Eventos",
+      "Salado"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?savory,catering,table&sig=17",
     "priceMin": 24000,
     "priceMax": 36000,
@@ -191,6 +310,13 @@
     "name": "Mesa dulce",
     "category": "Catering",
     "description": "Pastelería mini, facturas y tortas para festejar.",
+    "imageUrl": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 23000,
+    "priceMax": 35000,
+    "tags": [
+      "Dulce",
+      "Cumpleaños"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?dessert,table,catering&sig=18",
     "priceMin": 23000,
     "priceMax": 35000,
@@ -202,6 +328,13 @@
     "name": "Combo reunión (12 personas)",
     "category": "Catering",
     "description": "Pack práctico para reuniones de equipo y talleres.",
+    "imageUrl": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 30000,
+    "priceMax": 43000,
+    "tags": [
+      "12 personas",
+      "Combo"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?meeting,food,box&sig=19",
     "priceMin": 30000,
     "priceMax": 43000,
@@ -213,6 +346,13 @@
     "name": "Picada La Rosetta",
     "category": "Catering",
     "description": "Variedad de quesos, fiambres, panes y dips caseros.",
+    "imageUrl": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 28000,
+    "priceMax": 41000,
+    "tags": [
+      "Picada",
+      "Compartir"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?charcuterie,board&sig=20",
     "priceMin": 28000,
     "priceMax": 41000,
@@ -224,6 +364,13 @@
     "name": "Mini tartas surtidas",
     "category": "Catering",
     "description": "Mini porciones de tartas saladas para mesas variadas.",
+    "imageUrl": "https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 21000,
+    "priceMax": 32000,
+    "tags": [
+      "Mini",
+      "Surtido"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?mini,quiche,tart&sig=21",
     "priceMin": 21000,
     "priceMax": 32000,
@@ -235,6 +382,13 @@
     "name": "Vianda clásica",
     "category": "Viandas",
     "description": "Plato casero con guarnición, ideal para oficina.",
+    "imageUrl": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 6200,
+    "priceMax": 8900,
+    "tags": [
+      "Diaria",
+      "Oficina"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?lunchbox,meal&sig=22",
     "priceMin": 6200,
     "priceMax": 8900,
@@ -246,6 +400,13 @@
     "name": "Vianda veggie",
     "category": "Viandas",
     "description": "Opción vegetariana completa, rica y equilibrada.",
+    "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 6400,
+    "priceMax": 9100,
+    "tags": [
+      "Veggie",
+      "Saludable"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?veggie,lunch&sig=23",
     "priceMin": 6400,
     "priceMax": 9100,
@@ -257,6 +418,13 @@
     "name": "Vianda proteica",
     "category": "Viandas",
     "description": "Alta en proteínas con vegetales de estación.",
+    "imageUrl": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 6900,
+    "priceMax": 9800,
+    "tags": [
+      "Fitness",
+      "Proteica"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?protein,mealprep&sig=24",
     "priceMin": 6900,
     "priceMax": 9800,
@@ -268,6 +436,13 @@
     "name": "Ensalada completa",
     "category": "Viandas",
     "description": "Base de hojas, proteínas y aderezo aparte.",
+    "imageUrl": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 5600,
+    "priceMax": 8100,
+    "tags": [
+      "Ligera",
+      "Fresca"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?salad,lunch&sig=25",
     "priceMin": 5600,
     "priceMax": 8100,
@@ -279,6 +454,13 @@
     "name": "Tarta + bebida (combo)",
     "category": "Viandas",
     "description": "Porción de tarta casera con bebida individual.",
+    "imageUrl": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 5900,
+    "priceMax": 8400,
+    "tags": [
+      "Combo",
+      "Rápido"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?tart,lunch,drink&sig=26",
     "priceMin": 5900,
     "priceMax": 8400,
@@ -290,6 +472,13 @@
     "name": "Sándwich + fruta (combo)",
     "category": "Viandas",
     "description": "Sándwich fresco más fruta de estación lista para llevar.",
+    "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 6100,
+    "priceMax": 8600,
+    "tags": [
+      "Combo",
+      "Take away"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?sandwich,fruit,lunch&sig=27",
     "priceMin": 6100,
     "priceMax": 8600,
@@ -301,6 +490,13 @@
     "name": "Box ejecutivo",
     "category": "Viandas",
     "description": "Vianda premium con snack y postre para jornadas largas.",
+    "imageUrl": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&q=80",
+    "priceMin": 7600,
+    "priceMax": 10900,
+    "tags": [
+      "Premium",
+      "Ejecutivo"
+    ],
     "imageUrl": "https://source.unsplash.com/featured/?executive,lunch,box&sig=28",
     "priceMin": 7600,
     "priceMax": 10900,
