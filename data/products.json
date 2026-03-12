@@ -11,6 +11,10 @@
       "Clásico",
       "Por docena"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?sandwich,ham,cheese&sig=1",
+    "priceMin": 4200,
+    "priceMax": 6400,
+    "tags": ["Clásico", "Por docena"],
     "featured": true
   },
   {
@@ -25,6 +29,10 @@
       "Premium",
       "Por docena"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?sandwich,prosciutto&sig=2",
+    "priceMin": 5200,
+    "priceMax": 7600,
+    "tags": ["Premium", "Por docena"],
     "featured": false
   },
   {
@@ -39,6 +47,10 @@
       "Mar",
       "Por docena"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?tuna,sandwich&sig=3",
+    "priceMin": 4800,
+    "priceMax": 7100,
+    "tags": ["Mar", "Por docena"],
     "featured": false
   },
   {
@@ -53,6 +65,10 @@
       "Hojaldre",
       "Copetín"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?puff,pastry,savory&sig=4",
+    "priceMin": 3500,
+    "priceMax": 5600,
+    "tags": ["Hojaldre", "Copetín"],
     "featured": false
   },
   {
@@ -67,6 +83,10 @@
       "Surtido",
       "Reuniones"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?sandwich,party,platter&sig=5",
+    "priceMin": 4900,
+    "priceMax": 7300,
+    "tags": ["Surtido", "Reuniones"],
     "featured": true
   },
   {
@@ -81,6 +101,10 @@
       "Mini",
       "Clásico"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?mini,sandwich&sig=6",
+    "priceMin": 3900,
+    "priceMax": 6000,
+    "tags": ["Mini", "Clásico"],
     "featured": false
   },
   {
@@ -95,6 +119,10 @@
       "Evento",
       "Bocados"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?savory,bites,catering&sig=7",
+    "priceMin": 4500,
+    "priceMax": 6800,
+    "tags": ["Evento", "Bocados"],
     "featured": false
   },
   {
@@ -109,6 +137,10 @@
       "Desayuno",
       "Docena"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?croissant,breakfast&sig=8",
+    "priceMin": 3100,
+    "priceMax": 5000,
+    "tags": ["Desayuno", "Docena"],
     "featured": true
   },
   {
@@ -123,6 +155,10 @@
       "Tradicional",
       "Mate"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?pastry,bakery&sig=9",
+    "priceMin": 2900,
+    "priceMax": 4600,
+    "tags": ["Tradicional", "Mate"],
     "featured": false
   },
   {
@@ -137,6 +173,10 @@
       "Membrillo",
       "Batata"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?sweet,pastry&sig=10",
+    "priceMin": 2800,
+    "priceMax": 4500,
+    "tags": ["Membrillo", "Batata"],
     "featured": false
   },
   {
@@ -151,6 +191,10 @@
       "Surtido",
       "Docena"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?assorted,pastries&sig=11",
+    "priceMin": 3400,
+    "priceMax": 5600,
+    "tags": ["Surtido", "Docena"],
     "featured": false
   },
   {
@@ -165,6 +209,10 @@
       "Dulce de leche",
       "Especial"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?dulce,de,leche,pastry&sig=12",
+    "priceMin": 3600,
+    "priceMax": 5900,
+    "tags": ["Dulce de leche", "Especial"],
     "featured": false
   },
   {
@@ -179,6 +227,10 @@
       "Rellenas",
       "Merienda"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?doughnut,berliner&sig=13",
+    "priceMin": 3300,
+    "priceMax": 5400,
+    "tags": ["Rellenas", "Merienda"],
     "featured": false
   },
   {
@@ -193,6 +245,10 @@
       "Clásico",
       "Panadería"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?pastry,sugar,bun&sig=14",
+    "priceMin": 3000,
+    "priceMax": 4800,
+    "tags": ["Clásico", "Panadería"],
     "featured": false
   },
   {
@@ -207,6 +263,10 @@
       "Empresas",
       "Reuniones"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?coffee,break,catering&sig=15",
+    "priceMin": 18000,
+    "priceMax": 26000,
+    "tags": ["Empresas", "Reuniones"],
     "featured": false
   },
   {
@@ -221,6 +281,10 @@
       "Premium",
       "Corporativo"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?premium,catering,food&sig=16",
+    "priceMin": 26000,
+    "priceMax": 38000,
+    "tags": ["Premium", "Corporativo"],
     "featured": true
   },
   {
@@ -235,6 +299,10 @@
       "Eventos",
       "Salado"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?savory,catering,table&sig=17",
+    "priceMin": 24000,
+    "priceMax": 36000,
+    "tags": ["Eventos", "Salado"],
     "featured": false
   },
   {
@@ -249,6 +317,10 @@
       "Dulce",
       "Cumpleaños"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?dessert,table,catering&sig=18",
+    "priceMin": 23000,
+    "priceMax": 35000,
+    "tags": ["Dulce", "Cumpleaños"],
     "featured": false
   },
   {
@@ -263,6 +335,10 @@
       "12 personas",
       "Combo"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?meeting,food,box&sig=19",
+    "priceMin": 30000,
+    "priceMax": 43000,
+    "tags": ["12 personas", "Combo"],
     "featured": false
   },
   {
@@ -277,6 +353,10 @@
       "Picada",
       "Compartir"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?charcuterie,board&sig=20",
+    "priceMin": 28000,
+    "priceMax": 41000,
+    "tags": ["Picada", "Compartir"],
     "featured": false
   },
   {
@@ -291,6 +371,10 @@
       "Mini",
       "Surtido"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?mini,quiche,tart&sig=21",
+    "priceMin": 21000,
+    "priceMax": 32000,
+    "tags": ["Mini", "Surtido"],
     "featured": false
   },
   {
@@ -305,6 +389,10 @@
       "Diaria",
       "Oficina"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?lunchbox,meal&sig=22",
+    "priceMin": 6200,
+    "priceMax": 8900,
+    "tags": ["Diaria", "Oficina"],
     "featured": false
   },
   {
@@ -319,6 +407,10 @@
       "Veggie",
       "Saludable"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?veggie,lunch&sig=23",
+    "priceMin": 6400,
+    "priceMax": 9100,
+    "tags": ["Veggie", "Saludable"],
     "featured": false
   },
   {
@@ -333,6 +425,10 @@
       "Fitness",
       "Proteica"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?protein,mealprep&sig=24",
+    "priceMin": 6900,
+    "priceMax": 9800,
+    "tags": ["Fitness", "Proteica"],
     "featured": false
   },
   {
@@ -347,6 +443,10 @@
       "Ligera",
       "Fresca"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?salad,lunch&sig=25",
+    "priceMin": 5600,
+    "priceMax": 8100,
+    "tags": ["Ligera", "Fresca"],
     "featured": false
   },
   {
@@ -361,6 +461,10 @@
       "Combo",
       "Rápido"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?tart,lunch,drink&sig=26",
+    "priceMin": 5900,
+    "priceMax": 8400,
+    "tags": ["Combo", "Rápido"],
     "featured": false
   },
   {
@@ -375,6 +479,10 @@
       "Combo",
       "Take away"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?sandwich,fruit,lunch&sig=27",
+    "priceMin": 6100,
+    "priceMax": 8600,
+    "tags": ["Combo", "Take away"],
     "featured": false
   },
   {
@@ -389,6 +497,10 @@
       "Premium",
       "Ejecutivo"
     ],
+    "imageUrl": "https://source.unsplash.com/featured/?executive,lunch,box&sig=28",
+    "priceMin": 7600,
+    "priceMax": 10900,
+    "tags": ["Premium", "Ejecutivo"],
     "featured": false
   }
 ]
