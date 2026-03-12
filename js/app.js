@@ -12,6 +12,32 @@ const formatterArs = new Intl.NumberFormat("es-AR", {
   maximumFractionDigits: 0,
 });
 
+
+function fallbackImageDataUrl(label = "La Rosetta") {
+  const safe = String(label)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .slice(0, 42);
+
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Imagen no disponible"><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0%" stop-color="#7b1f3a"/><stop offset="100%" stop-color="#5a142a"/></linearGradient></defs><rect width="1200" height="900" fill="url(#g)"/><text x="50%" y="46%" text-anchor="middle" font-size="62" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-weight="700">La Rosetta</text><text x="50%" y="56%" text-anchor="middle" font-size="34" fill="#f5e9ee" font-family="Arial, Helvetica, sans-serif">${safe}</text></svg>`;
+
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
+
+function applyImageFallbacks(root = document) {
+  root.querySelectorAll("img").forEach((img) => {
+    if (img.dataset.fallbackBound === "true") return;
+    img.dataset.fallbackBound = "true";
+
+    const fallback = fallbackImageDataUrl(img.alt || "Producto");
+    img.addEventListener("error", () => {
+      if (img.dataset.fallbackApplied === "true") return;
+      img.dataset.fallbackApplied = "true";
+      img.src = fallback;
+    });
+  });
+}
 const randomPrice = (min, max) => Math.round(Math.random() * (max - min) + min);
 
 const createWhatsAppLink = (message) =>
@@ -86,6 +112,10 @@ function initCatalogPage(products) {
   let activeCategory = "Todas";
 
   const featuredProducts = pricedProducts.filter((product) => product.featured).slice(0, 3);
+  if (featuredGrid) {
+    featuredGrid.innerHTML = featuredProducts.map(productCardTemplate).join("");
+    applyImageFallbacks(featuredGrid);
+  }
   if (featuredGrid) featuredGrid.innerHTML = featuredProducts.map(productCardTemplate).join("");
 
   const renderFilters = () => {
@@ -112,6 +142,7 @@ function initCatalogPage(products) {
     catalogGrid.innerHTML = filtered.length
       ? filtered.map(productCardTemplate).join("")
       : `<p class="notice">No encontramos productos con ese filtro.</p>`;
+    applyImageFallbacks(catalogGrid);
   };
 
   filtersContainer.addEventListener("click", (event) => {
@@ -130,6 +161,7 @@ function initCatalogPage(products) {
     if (featuredGrid) {
       const updatedFeatured = pricedProducts.filter((product) => product.featured).slice(0, 3);
       featuredGrid.innerHTML = updatedFeatured.map(productCardTemplate).join("");
+      applyImageFallbacks(featuredGrid);
     }
   });
 
@@ -194,6 +226,7 @@ function initMenuPage(products) {
 
 async function initApp() {
   initSharedContact();
+  applyImageFallbacks(document);
 
   try {
     const products = await loadProducts();
