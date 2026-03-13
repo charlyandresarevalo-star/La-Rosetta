@@ -25,6 +25,35 @@ function fallbackImageDataUrl(label = "La Rosetta") {
   return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 
+function officialLogoDataUrl() {
+  const arc = (cx, cy, r, a0, a1) => {
+    const x0 = cx + r * Math.cos(a0);
+    const y0 = cy + r * Math.sin(a0);
+    const x1 = cx + r * Math.cos(a1);
+    const y1 = cy + r * Math.sin(a1);
+    const laf = Math.abs(a1 - a0) > Math.PI ? 1 : 0;
+    const sweep = a1 > a0 ? 1 : 0;
+    return `M ${x0.toFixed(2)} ${y0.toFixed(2)} A ${r} ${r} 0 ${laf} ${sweep} ${x1.toFixed(2)} ${y1.toFixed(2)}`;
+  };
+
+  const ring = Array.from({ length: 12 }, (_, i) => {
+    const angle = (Math.PI * 2 * i) / 12;
+    const cx = 210 + 120 * Math.cos(angle);
+    const cy = 145 + 88 * Math.sin(angle);
+    return arc(cx, cy, 44, -2.45, 0.35);
+  }).join(" ");
+
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="420" height="520" viewBox="0 0 420 520" role="img" aria-label="Logo oficial de La Panadería Rosetta"><defs><linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f1a06a"/><stop offset="50%" stop-color="#b64022"/><stop offset="100%" stop-color="#7b1f15"/></linearGradient><linearGradient id="plate" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7a2316"/><stop offset="100%" stop-color="#ba4a2c"/></linearGradient></defs><rect width="420" height="520" fill="#fff"/><path d="${ring}" fill="none" stroke="url(#ring)" stroke-width="13" stroke-linecap="round"/><rect x="36" y="250" width="348" height="50" fill="url(#plate)" stroke="#dba06f" stroke-width="3"/><text x="210" y="283" text-anchor="middle" fill="#fff" font-family="Georgia, 'Times New Roman', serif" font-size="26" letter-spacing="2">LA PANADERIA</text><text x="210" y="382" text-anchor="middle" fill="#1f1a19" font-family="Georgia, 'Times New Roman', serif" font-size="88">rosetta</text><text x="210" y="438" text-anchor="middle" fill="#2a201f" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-style="italic">“Te acompaña todo el día”</text></svg>`;
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
+
+function applyOfficialLogos(root = document) {
+  const logoSrc = officialLogoDataUrl();
+  root.querySelectorAll('[data-official-logo="true"]').forEach((img) => {
+    img.src = logoSrc;
+  });
+}
+
 function applyImageFallbacks(root = document) {
   root.querySelectorAll("img").forEach((img) => {
     if (img.dataset.fallbackBound === "true") return;
@@ -116,7 +145,6 @@ function initCatalogPage(products) {
     featuredGrid.innerHTML = featuredProducts.map(productCardTemplate).join("");
     applyImageFallbacks(featuredGrid);
   }
-  if (featuredGrid) featuredGrid.innerHTML = featuredProducts.map(productCardTemplate).join("");
 
   const renderFilters = () => {
     const allFilters = ["Todas", ...categories];
@@ -226,6 +254,7 @@ function initMenuPage(products) {
 
 async function initApp() {
   initSharedContact();
+  applyOfficialLogos(document);
   applyImageFallbacks(document);
 
   try {
