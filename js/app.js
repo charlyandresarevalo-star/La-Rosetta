@@ -25,18 +25,6 @@ function fallbackImageDataUrl(label = "La Rosetta") {
   return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 
-function officialLogoDataUrl() {
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Logo La Rosetta"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#d4703e"/><stop offset="100%" stop-color="#7b1f3a"/></linearGradient></defs><rect width="280" height="280" rx="24" fill="#fff8f4"/><g fill="none" stroke="url(#g)" stroke-width="8" stroke-linecap="round"><circle cx="140" cy="88" r="54"/><circle cx="104" cy="105" r="35"/><circle cx="176" cy="105" r="35"/><circle cx="84" cy="141" r="28"/><circle cx="196" cy="141" r="28"/><circle cx="140" cy="152" r="38"/></g><rect x="34" y="188" width="212" height="34" rx="4" fill="#8f2a1f"/><text x="140" y="211" fill="#fff" text-anchor="middle" font-size="16" font-family="Georgia, serif">LA PANADERIA</text><text x="140" y="250" fill="#231f20" text-anchor="middle" font-size="48" font-family="Georgia, serif">rosetta</text></svg>`;
-  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
-}
-
-function applyOfficialLogos(root = document) {
-  const logoSrc = officialLogoDataUrl();
-  root.querySelectorAll('[data-official-logo="true"]').forEach((img) => {
-    img.src = logoSrc;
-  });
-}
-
 function applyImageFallbacks(root = document) {
   root.querySelectorAll("img").forEach((img) => {
     if (img.dataset.fallbackBound === "true") return;
@@ -128,6 +116,7 @@ function initCatalogPage(products) {
     featuredGrid.innerHTML = featuredProducts.map(productCardTemplate).join("");
     applyImageFallbacks(featuredGrid);
   }
+  if (featuredGrid) featuredGrid.innerHTML = featuredProducts.map(productCardTemplate).join("");
 
   const renderFilters = () => {
     const allFilters = ["Todas", ...categories];
@@ -237,7 +226,6 @@ function initMenuPage(products) {
 
 async function initApp() {
   initSharedContact();
-  applyOfficialLogos(document);
   applyImageFallbacks(document);
 
   try {
