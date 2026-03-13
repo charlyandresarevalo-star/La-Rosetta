@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Rosetta | Menú Imprimible</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="print-page">
+    <header class="print-header">
+      <div class="container">
+        <div class="print-brand">
+          <img class="logo-mark logo-mark-print" data-official-logo="true" alt="Logo oficial de La Rosetta" />
+          <h1>La Rosetta · Menú / Carta</h1>
+        </div>
+        <p>Suipacha 730, CABA · WhatsApp: <span id="waText">54XXXXXXXXXX</span></p>
+      </div>
+    </header>
+
+    <main class="print-main">
+      <div class="container">
+        <div class="print-tools">
+          <button id="printBtn" class="btn btn-secondary" type="button">Imprimir / Guardar PDF</button>
+          <a href="index.html" class="btn btn-tertiary">Volver al inicio</a>
+        </div>
+
+        <article class="menu-sheet">
+          <p class="menu-meta">
+            Carta generada el <span id="menuGeneratedAt"></span> · Precios de muestra en ARS.
+          </p>
+          <div id="menuContent"></div>
+          <p class="menu-footer-note">Precios de muestra (demo). Sujetos a cambio.</p>
+        </article>
+      </div>
+    </main>
+
+    <script src="js/app.js" defer></script>
+  </body>
+</html>
