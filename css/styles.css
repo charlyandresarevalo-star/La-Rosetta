@@ -67,7 +67,7 @@ a {
 }
 
 .header-inner {
-  min-height: 72px;
+  min-height: 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -89,12 +89,13 @@ a {
 }
 
 .logo-mark {
-  width: 56px;
-  height: 56px;
+  width: 44px;
+  height: 44px;
   object-fit: contain;
-  background: transparent;
-  border: 0;
-  padding: 0;
+  background: #fbf4e8;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 6px;
+  padding: 3px;
 }
 
 .logo-mark-print {
@@ -187,11 +188,7 @@ a {
 }
 
 .hero-logo {
-  width: clamp(96px, 20vw, 150px);
-  height: auto;
-  object-fit: contain;
-  margin-bottom: 1rem;
-  filter: drop-shadow(0 8px 22px rgba(0, 0, 0, 0.35));
+  display: none;
 }
 
 .hero h1 {
@@ -391,8 +388,8 @@ a {
 }
 
 .footer-brand .logo-mark {
-  width: 46px;
-  height: 46px;
+  width: 40px;
+  height: 40px;
 }
 
 /* Menú imprimible */
